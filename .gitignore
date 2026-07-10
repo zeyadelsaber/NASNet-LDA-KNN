@@ -1,0 +1,35 @@
+# MATLAB autosaves, temporary files, and generated metadata
+*.asv
+*.m~
+*.autosave
+*.slxc
+*.mex*
+*.mlappinstall
+*.prj
+*.log
+*.tmp
+*.bak
+slprj/
+sccprj/
+codegen/
+html/
+*.html
+
+# Local MATLAB preferences and OS/editor files
+MATLAB/R20*/
+.matlab/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Dataset (too large and distributed separately)
+data/
+
+# Generated models and feature arrays
+results/models/
+*.mat
+
+# Keep the published metrics and selected figures tracked.
+!results/final_results.csv
+!figures/*.png
